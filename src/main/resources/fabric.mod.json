@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "better-ore-finder",
+	"version": "${version}",
+	"name": "Better Ore Finder",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Snomn"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/better-ore-finder/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.snomn.betterorefinder.BetterOreFinder"
+		],
+		"client": [
+			"net.snomn.betterorefinder.BetterOreFinderClient"
+		],
+		"fabric-datagen": [
+			"net.snomn.betterorefinder.BetterOreFinderDataGenerator"
+		]
+	},
+	"mixins": [
+		"better-ore-finder.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
