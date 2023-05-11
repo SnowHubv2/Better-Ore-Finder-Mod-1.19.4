@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "better-ore-finder",
+	"id": "betterorefinder",
 	"version": "${version}",
 	"name": "Better Ore Finder",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"better-ore-finder.mixins.json"
+		"betterorefinder.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.19",
